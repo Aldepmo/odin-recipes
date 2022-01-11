@@ -1,0 +1,56 @@
+/* Styles css*/
+
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic ;
+    background-color: limegreen;
+    width: auto;
+    text-align: center;   
+}
+
+.recipes{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:mediumseagreen;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic ;
+    text-align: center;
+}
+
+.recipes1:hover{
+    background-color: lightGreen ;
+}
+
+.title{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    background-color: mediumseagreen;
+    width: auto;
+    text-align: center;
+}
+
+.imgrecipe{
+    display: block;
+    margin: auto;
+}
+
+.buttonTop{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font:bold;
+    color:black;
+    background-color: orange;
+}
+
+a:link, a:visited {text-decoration:none};
+
