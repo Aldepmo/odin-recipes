@@ -15,8 +15,6 @@
     margin-left: auto;
     margin-right: auto;
     background-color:mediumseagreen;
-    padding-top: 2px;
-    padding-bottom: 2px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     font-weight: bold;
@@ -25,10 +23,12 @@
 }
 
 .recipes1:hover{
-    width: 600px;
-    background-color: limeGreen;
+    width: auto;
+    background-color: Green;
+    font-family: Times;
     color:ivory;
 }
+
 
 .title{
     font-family: Verdana, Tahoma, sans-serif;
@@ -46,11 +46,29 @@
 }
 
 .titledesc{
+    margin-left: 10px;
     border-top: 10px;
     border-bottom: 10px;
     border-color: black;
     font-size: 40px;
 }
+
+.desc{
+    margin-left: 20px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+.ingredients{
+    border: 1px solid mediumseagreen;
+    text-align: center;
+}
+
+.li{
+    margin-left: 300px;
+    text-align: justify;
+}
+
 
 .buttonTop{
     display: block;
