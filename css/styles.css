@@ -25,7 +25,9 @@
 }
 
 .recipes1:hover{
-    background-color: lightGreen ;
+    width: 600px;
+    background-color: limeGreen;
+    color:ivory;
 }
 
 .title{
@@ -43,12 +45,19 @@
     margin: auto;
 }
 
+.titledesc{
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    font-size: 40px;
+}
+
 .buttonTop{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
+    display: block;
+    margin: auto;
+    font-size: 30px;
     font:bold;
-    color:black;
+    color: green;
     background-color: orange;
 }
 
