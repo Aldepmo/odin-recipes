@@ -1,31 +1,41 @@
 /* Styles css*/
 
 .logo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 840px;
+    padding: 15px;
+    border: thick double Teal;
+    background-color: rgb(107, 240, 240);
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: larger;
     font-weight: bold;
-    font-style: italic ;
-    background-color: limegreen;
-    width: auto;
-    text-align: center;   
+    font-style: italic;
+    text-align: center;
+    color: rgb(26, 65, 2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;   
+}
+
+.logo h5{
+    color:rgb(126, 83, 9);
 }
 
 .recipes{
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    background-color:mediumseagreen;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color:rgb(43, 207, 114);
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: larger;
     font-weight: bold;
-    font-style: italic ;
     text-align: center;
+    color: rgb(47, 94, 14);
 }
 
-.recipes1:hover{
-    width: auto;
-    background-color: Green;
-    font-family: Times;
+.recipes1:hover {
+    /*width: max-content;*/
+    background-color: rgb(23, 201, 23);
     color:ivory;
 }
 
@@ -35,8 +45,10 @@
     font-size: large;
     font-weight: bold;
     font-style: italic;
-    background-color: mediumseagreen;
-    width: auto;
+    background-color: rgb(43, 207, 114);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
     text-align: center;
 }
 
@@ -46,26 +58,34 @@
 }
 
 .titledesc{
-    margin-left: 10px;
     border-top: 10px;
     border-bottom: 10px;
     border-color: black;
-    font-size: 40px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(61, 50, 50)
+
 }
 
 .desc{
-    margin-left: 20px;
-    margin-right: 120px;
+    margin-left: 230px;
+    margin-right: 230px;
     text-align: justify;
 }
 
+
+
 .ingredients{
-    border: 1px solid mediumseagreen;
+    margin-left: auto;
+    margin-right: auto;
+    width: 840px;
+    border: 2px solid rgb(43, 207, 114);
     text-align: center;
 }
 
 .li{
     margin-left: 300px;
+    margin-right: 300px;
     text-align: justify;
 }
 
@@ -73,7 +93,7 @@
 .buttonTop{
     display: block;
     margin: auto;
-    font-size: 30px;
+    font-size: 20px;
     font:bold;
     color: green;
     background-color: orange;
